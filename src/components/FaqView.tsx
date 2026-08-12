@@ -267,10 +267,10 @@ export default function FaqView({ onNavigate }: { onNavigate: (path: string) => 
             </p>
           </div>
           <a
-            href="tel:5745558240"
+            href="tel:5745648115"
             className="bg-amber-500 hover:bg-amber-600 text-slate-950 font-black py-3 px-6 rounded-xl text-xs tracking-wider transition-all flex items-center gap-2 border border-amber-600 shrink-0 shadow-md"
           >
-            CALL DIRECT: (574) 555-8240
+            CALL DIRECT: (574) 564-8115
           </a>
         </div>
       </section>

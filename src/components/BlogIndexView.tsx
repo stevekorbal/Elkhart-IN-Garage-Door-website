@@ -177,11 +177,11 @@ export default function BlogIndexView({ onNavigate }: BlogIndexViewProps) {
           </div>
           <div className="flex flex-col sm:flex-row gap-3 shrink-0">
             <a
-              href="tel:5745558240"
+              href="tel:5745648115"
               className="bg-amber-500 hover:bg-amber-600 text-slate-950 font-black py-3 px-6 rounded-xl text-xs md:text-sm tracking-wide transition-all border border-amber-600 flex items-center justify-center gap-2 cursor-pointer"
             >
               <Phone className="w-4 h-4 fill-current" />
-              CALL (574) 555-8240
+              CALL (574) 564-8115
             </a>
             <button
               onClick={() => {

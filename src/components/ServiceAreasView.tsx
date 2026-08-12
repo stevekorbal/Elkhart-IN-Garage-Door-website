@@ -108,11 +108,11 @@ export default function ServiceAreasView({ onNavigate }: { onNavigate: (path: st
             Outside our standard 30-mile radius?
           </h3>
           <p className="text-slate-600 text-xs md:text-sm mt-3 leading-relaxed max-w-2xl mx-auto">
-            If you are located just outside of our core Elkhart or St. Joseph county borders, please contact our dispatch managers at <a href="tel:5745558240" className="text-blue-900 font-extrabold hover:underline">(574) 555-8240</a>. Depending on technical workloads, we are often able to schedule specialized commercial or residential runs with nominal travel adjustments.
+            If you are located just outside of our core Elkhart or St. Joseph county borders, please contact our dispatch managers at <a href="tel:5745648115" className="text-blue-900 font-extrabold hover:underline">(574) 564-8115</a>. Depending on technical workloads, we are often able to schedule specialized commercial or residential runs with nominal travel adjustments.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
             <a
-              href="tel:5745558240"
+              href="tel:5745648115"
               className="bg-amber-500 hover:bg-amber-600 text-slate-950 font-black py-3 px-6 rounded-xl text-xs tracking-wider transition-all flex items-center justify-center gap-1.5 border border-amber-600"
             >
               <PhoneCall className="w-4 h-4 fill-current" />

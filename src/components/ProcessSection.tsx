@@ -6,7 +6,7 @@ export default function ProcessSection() {
     {
       num: '01',
       title: 'Call Us 24/7',
-      desc: 'Connect immediately with our local Elkhart dispatcher at (574) 555-8240.',
+      desc: 'Connect immediately with our local Elkhart dispatcher at (574) 564-8115.',
       icon: PhoneCall,
       color: 'bg-blue-50 border-blue-200 text-blue-900 icon-blue',
     },

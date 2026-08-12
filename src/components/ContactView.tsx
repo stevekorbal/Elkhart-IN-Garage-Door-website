@@ -43,8 +43,8 @@ export default function ContactView({ onNavigate }: { onNavigate: (path: string)
                 </div>
                 <div>
                   <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block">Telephone (24/7 Emergency Line)</span>
-                  <a href="tel:5745558240" className="text-base md:text-lg font-black text-slate-900 hover:text-amber-500 transition-colors block mt-1">
-                    (574) 555-8240
+                  <a href="tel:5745648115" className="text-base md:text-lg font-black text-slate-900 hover:text-amber-500 transition-colors block mt-1">
+                    (574) 564-8115
                   </a>
                   <span className="text-[11px] text-slate-500 block mt-0.5">Call now for average under-60 min dispatch responses.</span>
                 </div>
@@ -57,8 +57,8 @@ export default function ContactView({ onNavigate }: { onNavigate: (path: string)
                 </div>
                 <div>
                   <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block">Email Inquiries</span>
-                  <a href="mailto:service@elkhartgaragedoor.com" className="text-sm font-bold text-slate-800 hover:text-blue-900 transition-colors block mt-1">
-                    service@elkhartgaragedoor.com
+                  <a href="mailto:contact@elkhartgaragedoorrepair.com" className="text-sm font-bold text-slate-800 hover:text-blue-900 transition-colors block mt-1">
+                    contact@elkhartgaragedoorrepair.com
                   </a>
                   <span className="text-[11px] text-slate-500 block mt-0.5">We respond to estimates and emails within 2 hours.</span>
                 </div>

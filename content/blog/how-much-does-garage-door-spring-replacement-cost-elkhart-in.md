@@ -67,4 +67,4 @@ Professional technicians use calibrated winding bars, winding cones, and vice gr
 
 At **Elkhart Garage Door Repair**, we carry commercial-grade oil-tempered torsion and extension springs on all our service trucks. We offer same-day dispatch and upfront, transparent pricing across Elkhart, Goshen, Bristol, Middlebury, Mishawaka, and surrounding communities.
 
-Call us today at **[(574) 555-8240](tel:5745558240)** or request a free estimate online!
+Call us today at **[(574) 564-8115](tel:5745648115)** or request a free estimate online!

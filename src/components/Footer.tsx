@@ -39,10 +39,10 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="flex flex-col items-center md:items-start">
             <h3 className="text-white font-extrabold text-sm mb-2">HAVE A GARAGE EMERGENCY?</h3>
             <a
-              href="tel:5745558240"
+              href="tel:5745648115"
               className="w-full bg-amber-500 hover:bg-amber-600 text-slate-950 font-black py-2.5 px-6 rounded-lg text-sm tracking-wider text-center transition-all inline-block border border-amber-600"
             >
-              CALL NOW: (574) 555-8240
+              CALL NOW: (574) 564-8115
             </a>
           </div>
         </div>
@@ -145,14 +145,14 @@ export default function Footer({ onNavigate }: FooterProps) {
             </li>
             <li className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-amber-500 shrink-0" />
-              <a href="tel:5745558240" className="hover:text-white transition-colors font-semibold">
-                (574) 555-8240
+              <a href="tel:5745648115" className="hover:text-white transition-colors font-semibold">
+                (574) 564-8115
               </a>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-amber-500 shrink-0" />
-              <a href="mailto:service@elkhartgaragedoor.com" className="hover:text-white transition-colors">
-                service@elkhartgaragedoor.com
+              <a href="mailto:contact@elkhartgaragedoorrepair.com" className="hover:text-white transition-colors">
+                contact@elkhartgaragedoorrepair.com
               </a>
             </li>
             <li className="flex items-start gap-2">

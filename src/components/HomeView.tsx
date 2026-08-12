@@ -155,11 +155,11 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
             {/* Immediate Action CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center mt-4">
               <a
-                href="tel:5745558240"
+                href="tel:5745648115"
                 className="bg-amber-500 hover:bg-amber-600 text-slate-950 font-black py-4 px-8 rounded-xl text-center text-sm md:text-base tracking-wide shadow-lg hover:shadow-xl transition-all transform active:scale-95 cursor-pointer flex items-center justify-center gap-2.5 border border-amber-600"
               >
                 <Phone className="w-5 h-5 fill-current animate-pulse" />
-                CALL NOW: (574) 555-8240
+                CALL NOW: (574) 564-8115
               </a>
               <button
                 onClick={() => handleServiceClick('emergency-garage-door-repair')}
@@ -243,7 +243,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
                       <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                     </button>
                     <a
-                      href="tel:5745558240"
+                      href="tel:5745648115"
                       className="text-xs md:text-sm font-extrabold text-slate-700 hover:text-amber-500 transition-colors flex items-center gap-1.5"
                     >
                       <Phone className="w-4 h-4" />
@@ -360,8 +360,8 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
               <Phone className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
               <div>
                 <span className="font-extrabold text-slate-800 text-sm block">24/7 Telephone line:</span>
-                <a href="tel:5745558240" className="text-xs font-bold text-blue-950 block mt-0.5 hover:text-amber-500 transition-colors">
-                  (574) 555-8240
+                <a href="tel:5745648115" className="text-xs font-bold text-blue-950 block mt-0.5 hover:text-amber-500 transition-colors">
+                  (574) 564-8115
                 </a>
               </div>
             </div>

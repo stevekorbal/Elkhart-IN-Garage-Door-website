@@ -154,7 +154,7 @@ export default function App() {
         'provider': {
           '@type': 'LocalBusiness',
           'name': 'Elkhart Garage Door Repair',
-          'telephone': '+15745558240',
+          'telephone': '+15745648115',
           'priceRange': '$$',
           'image': 'https://elkhartgaragedoor.com/src/assets/images/garage_door_hero_1784628372796.jpg',
           'address': {
@@ -213,7 +213,7 @@ export default function App() {
           '@type': 'LocalBusiness',
           'name': `Elkhart Garage Door Repair - ${city.cityName}`,
           'description': city.intro,
-          'telephone': '+15745558240',
+          'telephone': '+15745648115',
           'priceRange': '$$',
           'url': canonicalUrl,
           'address': {
@@ -285,7 +285,7 @@ export default function App() {
           break;
         case 'contact':
           title = 'Contact Us | Elkhart Garage Door Repair Elkhart IN';
-          description = 'Get in touch with our local team for emergency repairs or free estimates in Elkhart, IN. We\'re available 24/7 at (574) 555-8240.';
+          description = 'Get in touch with our local team for emergency repairs or free estimates in Elkhart, IN. We\'re available 24/7 at (574) 564-8115.';
           break;
         case 'privacy-policy':
           title = 'Privacy Policy | Elkhart Garage Door Repair';
@@ -309,7 +309,7 @@ export default function App() {
         'image': 'https://elkhartgaragedoor.com/src/assets/images/garage_door_hero_1784628372796.jpg',
         '@id': 'https://elkhartgaragedoor.com/',
         'url': 'https://elkhartgaragedoor.com/',
-        'telephone': '+15745558240',
+        'telephone': '+15745648115',
         'priceRange': '$$',
         'address': {
           '@type': 'PostalAddress',

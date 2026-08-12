@@ -60,4 +60,4 @@ If you press your remote and hear the motor humming inside the ceiling unit, but
 
 If your garage door opener is showing any of these symptoms, don't wait for total breakdown. **Elkhart Garage Door Repair** services all major brands including LiftMaster, Chamberlain, Genie, and Craftsman.
 
-Contact our Elkhart technicians today at **[(574) 555-8240](tel:5745558240)** for fast diagnostic and repair services!
+Contact our Elkhart technicians today at **[(574) 564-8115](tel:5745648115)** for fast diagnostic and repair services!
