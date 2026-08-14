@@ -1,10 +1,11 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import { defineConfig } from 'vite';
+import { defineConfig, Plugin } from 'vite';
 import { execSync } from 'child_process';
+import contactHandler from './api/contact';
 
-function generateSitemapPlugin() {
+function generateSitemapPlugin(): Plugin {
   return {
     name: 'generate-sitemap-plugin',
     buildStart() {
@@ -17,9 +18,33 @@ function generateSitemapPlugin() {
   };
 }
 
+function apiContactPlugin(): Plugin {
+  return {
+    name: 'api-contact-plugin',
+    configureServer(server) {
+      server.middlewares.use(async (req, res, next) => {
+        if (req.url && (req.url === '/api/contact' || req.url.startsWith('/api/contact?'))) {
+          await contactHandler(req, res);
+          return;
+        }
+        next();
+      });
+    },
+    configurePreviewServer(server) {
+      server.middlewares.use(async (req, res, next) => {
+        if (req.url && (req.url === '/api/contact' || req.url.startsWith('/api/contact?'))) {
+          await contactHandler(req, res);
+          return;
+        }
+        next();
+      });
+    }
+  };
+}
+
 export default defineConfig(() => {
   return {
-    plugins: [generateSitemapPlugin(), react(), tailwindcss()],
+    plugins: [generateSitemapPlugin(), apiContactPlugin(), react(), tailwindcss()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
